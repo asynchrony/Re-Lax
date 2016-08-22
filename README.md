@@ -1,2 +1,2 @@
-# Re-Lax
+# Re:Lax
 Recreating Parallax on tvOS
