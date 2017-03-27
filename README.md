@@ -1,7 +1,7 @@
 # ReLax
 
 <p align="center">
-  <img src="preview.gif" />
+  <img src="preview.gif" width="640" height="360" />
 </p>
 
 ## Programmatic Effect
