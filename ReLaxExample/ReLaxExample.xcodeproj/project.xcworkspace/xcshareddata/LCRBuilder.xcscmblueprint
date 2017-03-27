@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2C968C672BE1436B5143CC2C1019B1E5BD21F6C7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2C968C672BE1436B5143CC2C1019B1E5BD21F6C7" : 0,
+    "79B5163BDB9C4D40C6D6410C9EB83A6F53023D0A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B4F99CE2-F133-486A-8ADC-872DEEB73326",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2C968C672BE1436B5143CC2C1019B1E5BD21F6C7" : "LCRBuilder\/",
+    "79B5163BDB9C4D40C6D6410C9EB83A6F53023D0A" : "CARstuff\/ThemeEngine\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LCRBuilder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LCRBuilder.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.asynchrony.com:james.rantanen\/LCRBuilder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2C968C672BE1436B5143CC2C1019B1E5BD21F6C7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/alexzielenski\/ThemeEngine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79B5163BDB9C4D40C6D6410C9EB83A6F53023D0A"
+    }
+  ]
+}

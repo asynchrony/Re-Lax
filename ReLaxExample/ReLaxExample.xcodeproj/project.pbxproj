@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1375601E6DD4C600631D74 /* StaticTextParentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13755E1E6DD4C600631D74 /* StaticTextParentButton.swift */; };
+		4D1375611E6DD4C600631D74 /* StaticTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13755F1E6DD4C600631D74 /* StaticTextViewController.swift */; };
+		4D1375651E6DD6AE00631D74 /* monstersinc.lcr in Resources */ = {isa = PBXBuildFile; fileRef = 4D1375641E6DD6AE00631D74 /* monstersinc.lcr */; };
+		4D1375671E6DDB0500631D74 /* ReLaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1375661E6DDB0500631D74 /* ReLaxViewController.swift */; };
+		4D1CC1BE1E6DB9530056E465 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1CC1BD1E6DB9530056E465 /* TVServices.framework */; };
+		4D1CC1C11E6DB9530056E465 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CC1C01E6DB9530056E465 /* ServiceProvider.swift */; };
+		4D1CC1C51E6DB9530056E465 /* ReLaxTopShelfExample.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D1CC1BC1E6DB9530056E465 /* ReLaxTopShelfExample.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D1CC1D01E6DC0350056E465 /* CGHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FD6D71E6B15B700E3D95D /* CGHelpers.swift */; };
+		4D1CC1D31E6DCEF60056E465 /* ReLax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1CC1D21E6DCEF60056E465 /* ReLax.framework */; };
+		4D262B191E6DD9E200F09E47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D64EF941E6DD49D006380BF /* Assets.xcassets */; };
+		4D64EF951E6DD49D006380BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D64EF941E6DD49D006380BF /* Assets.xcassets */; };
+		4D72CD891E690BD6005D8769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D72CD871E690BD6005D8769 /* AppDelegate.swift */; };
+		4D72CDD01E690FF0005D8769 /* ReLax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D72CDCF1E690FF0005D8769 /* ReLax.framework */; };
+		4D72CDD11E690FF0005D8769 /* ReLax.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D72CDCF1E690FF0005D8769 /* ReLax.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D7620ED1DC93C5300DDFF3C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7620EC1DC93C5300DDFF3C /* Accelerate.framework */; };
+		4D7620EF1DC93C6000DDFF3C /* libcompression.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7620EE1DC93C6000DDFF3C /* libcompression.tbd */; };
+		4D8FD6CF1E6B076B00E3D95D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FD6C91E6B076B00E3D95D /* 1.png */; };
+		4D8FD6D01E6B076B00E3D95D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FD6CA1E6B076B00E3D95D /* 2.png */; };
+		4D8FD6D11E6B076B00E3D95D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FD6CB1E6B076B00E3D95D /* 3.png */; };
+		4D8FD6D21E6B076B00E3D95D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FD6CC1E6B076B00E3D95D /* 4.png */; };
+		4D8FD6D31E6B076B00E3D95D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FD6CD1E6B076B00E3D95D /* 5.png */; };
+		4D8FD6D41E6B076B00E3D95D /* Interstellar.lcr in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FD6CE1E6B076B00E3D95D /* Interstellar.lcr */; };
+		4D8FD6D61E6B0E8000E3D95D /* ReLaxParentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FD6D51E6B0E8000E3D95D /* ReLaxParentButton.swift */; };
+		4D8FD6D81E6B15B700E3D95D /* CGHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FD6D71E6B15B700E3D95D /* CGHelpers.swift */; };
+		4D8FD6DF1E6DBECB00E3D95D /* JaggedEdgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FD6DE1E6DBECB00E3D95D /* JaggedEdgeViewController.swift */; };
+		4D8FD6E61E6DC4D000E3D95D /* TheIncredibles.lcr in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FD6E41E6DC4D000E3D95D /* TheIncredibles.lcr */; };
+		4D8FD6E71E6DC4D000E3D95D /* walle.lcr in Resources */ = {isa = PBXBuildFile; fileRef = 4D8FD6E51E6DC4D000E3D95D /* walle.lcr */; };
+		4D8FD6E91E6DC8D300E3D95D /* JaggedEdgeParentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8FD6E81E6DC8D300E3D95D /* JaggedEdgeParentButton.swift */; };
+		5AA998B71CA98CBA00A66418 /* (null) in Resources */ = {isa = PBXBuildFile; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1CC1C31E6DB9530056E465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A02893C1C972EBE004B9E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1CC1BB1E6DB9530056E465;
+			remoteInfo = ReLaxTopShelfExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D1CC1C91E6DB9530056E465 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D1CC1C51E6DB9530056E465 /* ReLaxTopShelfExample.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D72CDBF1E690D77005D8769 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D72CDD11E690FF0005D8769 /* ReLax.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D13755E1E6DD4C600631D74 /* StaticTextParentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTextParentButton.swift; sourceTree = SOURCE_ROOT; };
+		4D13755F1E6DD4C600631D74 /* StaticTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTextViewController.swift; sourceTree = SOURCE_ROOT; };
+		4D1375641E6DD6AE00631D74 /* monstersinc.lcr */ = {isa = PBXFileReference; lastKnownFileType = file; path = monstersinc.lcr; sourceTree = SOURCE_ROOT; };
+		4D1375661E6DDB0500631D74 /* ReLaxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReLaxViewController.swift; sourceTree = SOURCE_ROOT; };
+		4D1CC1BC1E6DB9530056E465 /* ReLaxTopShelfExample.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ReLaxTopShelfExample.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1CC1BD1E6DB9530056E465 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = Library/Frameworks/TVServices.framework; sourceTree = DEVELOPER_DIR; };
+		4D1CC1C01E6DB9530056E465 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		4D1CC1C21E6DB9530056E465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1CC1D21E6DCEF60056E465 /* ReLax.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReLax.framework; path = "../../../Library/Developer/Xcode/DerivedData/ReLax-dnkfuqjiwrfxnrboitguctvpnjua/Build/Products/Debug-appletvsimulator/ReLax.framework"; sourceTree = "<group>"; };
+		4D25E4051DC92A5200A933DF /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		4D64EF941E6DD49D006380BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D72CD871E690BD6005D8769 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		4D72CDCF1E690FF0005D8769 /* ReLax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReLax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7620EC1DC93C5300DDFF3C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		4D7620EE1DC93C6000DDFF3C /* libcompression.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcompression.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/usr/lib/libcompression.tbd; sourceTree = DEVELOPER_DIR; };
+		4D8FD6C91E6B076B00E3D95D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = SOURCE_ROOT; };
+		4D8FD6CA1E6B076B00E3D95D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = SOURCE_ROOT; };
+		4D8FD6CB1E6B076B00E3D95D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = SOURCE_ROOT; };
+		4D8FD6CC1E6B076B00E3D95D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = SOURCE_ROOT; };
+		4D8FD6CD1E6B076B00E3D95D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = SOURCE_ROOT; };
+		4D8FD6CE1E6B076B00E3D95D /* Interstellar.lcr */ = {isa = PBXFileReference; lastKnownFileType = file; path = Interstellar.lcr; sourceTree = SOURCE_ROOT; };
+		4D8FD6D51E6B0E8000E3D95D /* ReLaxParentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReLaxParentButton.swift; sourceTree = SOURCE_ROOT; };
+		4D8FD6D71E6B15B700E3D95D /* CGHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGHelpers.swift; sourceTree = SOURCE_ROOT; };
+		4D8FD6DE1E6DBECB00E3D95D /* JaggedEdgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JaggedEdgeViewController.swift; sourceTree = SOURCE_ROOT; };
+		4D8FD6E41E6DC4D000E3D95D /* TheIncredibles.lcr */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheIncredibles.lcr; sourceTree = SOURCE_ROOT; };
+		4D8FD6E51E6DC4D000E3D95D /* walle.lcr */ = {isa = PBXFileReference; lastKnownFileType = file; path = walle.lcr; sourceTree = SOURCE_ROOT; };
+		4D8FD6E81E6DC8D300E3D95D /* JaggedEdgeParentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JaggedEdgeParentButton.swift; sourceTree = SOURCE_ROOT; };
+		5AA998AD1CA98CBA00A66418 /* ReLaxExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReLaxExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA998B81CA98CBA00A66418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1CC1B91E6DB9530056E465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1CC1D31E6DCEF60056E465 /* ReLax.framework in Frameworks */,
+				4D1CC1BE1E6DB9530056E465 /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA998AA1CA98CBA00A66418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D72CDD01E690FF0005D8769 /* ReLax.framework in Frameworks */,
+				4D7620EF1DC93C6000DDFF3C /* libcompression.tbd in Frameworks */,
+				4D7620ED1DC93C5300DDFF3C /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1CC1BF1E6DB9530056E465 /* ReLaxTopShelfExample */ = {
+			isa = PBXGroup;
+			children = (
+				4D1CC1C01E6DB9530056E465 /* ServiceProvider.swift */,
+				4D1CC1C21E6DB9530056E465 /* Info.plist */,
+			);
+			path = ReLaxTopShelfExample;
+			sourceTree = "<group>";
+		};
+		4D25E4041DC92A5200A933DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D1CC1D21E6DCEF60056E465 /* ReLax.framework */,
+				4D72CDCF1E690FF0005D8769 /* ReLax.framework */,
+				4D7620EE1DC93C6000DDFF3C /* libcompression.tbd */,
+				4D7620EC1DC93C5300DDFF3C /* Accelerate.framework */,
+				4D25E4051DC92A5200A933DF /* CoreServices.framework */,
+				4D1CC1BD1E6DB9530056E465 /* TVServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D8FD6DB1E6B472400E3D95D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AA998B81CA98CBA00A66418 /* Info.plist */,
+				4D8FD6C91E6B076B00E3D95D /* 1.png */,
+				4D8FD6CA1E6B076B00E3D95D /* 2.png */,
+				4D8FD6CB1E6B076B00E3D95D /* 3.png */,
+				4D8FD6CC1E6B076B00E3D95D /* 4.png */,
+				4D8FD6CD1E6B076B00E3D95D /* 5.png */,
+				4D8FD6CE1E6B076B00E3D95D /* Interstellar.lcr */,
+				4D8FD6E41E6DC4D000E3D95D /* TheIncredibles.lcr */,
+				4D8FD6E51E6DC4D000E3D95D /* walle.lcr */,
+				4D1375641E6DD6AE00631D74 /* monstersinc.lcr */,
+			);
+			name = Resources;
+			path = ReLaxExample;
+			sourceTree = "<group>";
+		};
+		5A02893B1C972EBE004B9E03 = {
+			isa = PBXGroup;
+			children = (
+				4D64EF941E6DD49D006380BF /* Assets.xcassets */,
+				5AA998AE1CA98CBA00A66418 /* ReLaxExample */,
+				4D8FD6DB1E6B472400E3D95D /* Resources */,
+				4D1CC1BF1E6DB9530056E465 /* ReLaxTopShelfExample */,
+				5A0289451C972EBE004B9E03 /* Products */,
+				4D25E4041DC92A5200A933DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A0289451C972EBE004B9E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA998AD1CA98CBA00A66418 /* ReLaxExample.app */,
+				4D1CC1BC1E6DB9530056E465 /* ReLaxTopShelfExample.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA998AE1CA98CBA00A66418 /* ReLaxExample */ = {
+			isa = PBXGroup;
+			children = (
+				4D72CD871E690BD6005D8769 /* AppDelegate.swift */,
+				4D8FD6D71E6B15B700E3D95D /* CGHelpers.swift */,
+				4D8FD6D51E6B0E8000E3D95D /* ReLaxParentButton.swift */,
+				4D1375661E6DDB0500631D74 /* ReLaxViewController.swift */,
+				4D8FD6DE1E6DBECB00E3D95D /* JaggedEdgeViewController.swift */,
+				4D8FD6E81E6DC8D300E3D95D /* JaggedEdgeParentButton.swift */,
+				4D13755E1E6DD4C600631D74 /* StaticTextParentButton.swift */,
+				4D13755F1E6DD4C600631D74 /* StaticTextViewController.swift */,
+			);
+			path = ReLaxExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D1CC1BB1E6DB9530056E465 /* ReLaxTopShelfExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1CC1C81E6DB9530056E465 /* Build configuration list for PBXNativeTarget "ReLaxTopShelfExample" */;
+			buildPhases = (
+				4D1CC1B81E6DB9530056E465 /* Sources */,
+				4D1CC1B91E6DB9530056E465 /* Frameworks */,
+				4D1CC1BA1E6DB9530056E465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReLaxTopShelfExample;
+			productName = ReLaxTopShelfExample;
+			productReference = 4D1CC1BC1E6DB9530056E465 /* ReLaxTopShelfExample.appex */;
+			productType = "com.apple.product-type.tv-app-extension";
+		};
+		5AA998AC1CA98CBA00A66418 /* ReLaxExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA998BB1CA98CBA00A66418 /* Build configuration list for PBXNativeTarget "ReLaxExample" */;
+			buildPhases = (
+				5AA998A91CA98CBA00A66418 /* Sources */,
+				5AA998AA1CA98CBA00A66418 /* Frameworks */,
+				5AA998AB1CA98CBA00A66418 /* Resources */,
+				4D72CDBF1E690D77005D8769 /* Embed Frameworks */,
+				4D1CC1C91E6DB9530056E465 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1CC1C41E6DB9530056E465 /* PBXTargetDependency */,
+			);
+			name = ReLaxExample;
+			productName = LCRBuilderTV;
+			productReference = 5AA998AD1CA98CBA00A66418 /* ReLaxExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A02893C1C972EBE004B9E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Asynchrony;
+				TargetAttributes = {
+					4D1CC1BB1E6DB9530056E465 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 438VZ6GLSU;
+						ProvisioningStyle = Automatic;
+					};
+					5AA998AC1CA98CBA00A66418 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 5A02893F1C972EBE004B9E03 /* Build configuration list for PBXProject "ReLaxExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A02893B1C972EBE004B9E03;
+			productRefGroup = 5A0289451C972EBE004B9E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA998AC1CA98CBA00A66418 /* ReLaxExample */,
+				4D1CC1BB1E6DB9530056E465 /* ReLaxTopShelfExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D1CC1BA1E6DB9530056E465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D262B191E6DD9E200F09E47 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA998AB1CA98CBA00A66418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8FD6D41E6B076B00E3D95D /* Interstellar.lcr in Resources */,
+				4D8FD6D21E6B076B00E3D95D /* 4.png in Resources */,
+				4D8FD6E71E6DC4D000E3D95D /* walle.lcr in Resources */,
+				4D8FD6D11E6B076B00E3D95D /* 3.png in Resources */,
+				4D8FD6CF1E6B076B00E3D95D /* 1.png in Resources */,
+				4D64EF951E6DD49D006380BF /* Assets.xcassets in Resources */,
+				4D8FD6D31E6B076B00E3D95D /* 5.png in Resources */,
+				4D8FD6D01E6B076B00E3D95D /* 2.png in Resources */,
+				4D1375651E6DD6AE00631D74 /* monstersinc.lcr in Resources */,
+				4D8FD6E61E6DC4D000E3D95D /* TheIncredibles.lcr in Resources */,
+				5AA998B71CA98CBA00A66418 /* (null) in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D1CC1B81E6DB9530056E465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1CC1C11E6DB9530056E465 /* ServiceProvider.swift in Sources */,
+				4D1CC1D01E6DC0350056E465 /* CGHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA998A91CA98CBA00A66418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8FD6E91E6DC8D300E3D95D /* JaggedEdgeParentButton.swift in Sources */,
+				4D72CD891E690BD6005D8769 /* AppDelegate.swift in Sources */,
+				4D8FD6DF1E6DBECB00E3D95D /* JaggedEdgeViewController.swift in Sources */,
+				4D8FD6D61E6B0E8000E3D95D /* ReLaxParentButton.swift in Sources */,
+				4D1375611E6DD4C600631D74 /* StaticTextViewController.swift in Sources */,
+				4D8FD6D81E6B15B700E3D95D /* CGHelpers.swift in Sources */,
+				4D1375601E6DD4C600631D74 /* StaticTextParentButton.swift in Sources */,
+				4D1375671E6DDB0500631D74 /* ReLaxViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D1CC1C41E6DB9530056E465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1CC1BB1E6DB9530056E465 /* ReLaxTopShelfExample */;
+			targetProxy = 4D1CC1C31E6DB9530056E465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D1CC1C61E6DB9530056E465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: P J (75L97MNZ7K)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 438VZ6GLSU;
+				INFOPLIST_FILE = ReLaxTopShelfExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asynchrony.ReLaxExample.ReLaxTopShelfExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		4D1CC1C71E6DB9530056E465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: P J (75L97MNZ7K)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 438VZ6GLSU;
+				INFOPLIST_FILE = ReLaxTopShelfExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asynchrony.ReLaxExample.ReLaxTopShelfExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A0289491C972EBE004B9E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A02894A1C972EBE004B9E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5AA998B91CA98CBA00A66418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: P J (75L97MNZ7K)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asynchrony.ReLaxExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		5AA998BA1CA98CBA00A66418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: P J (75L97MNZ7K)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asynchrony.ReLaxExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D1CC1C81E6DB9530056E465 /* Build configuration list for PBXNativeTarget "ReLaxTopShelfExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1CC1C61E6DB9530056E465 /* Debug */,
+				4D1CC1C71E6DB9530056E465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A02893F1C972EBE004B9E03 /* Build configuration list for PBXProject "ReLaxExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A0289491C972EBE004B9E03 /* Debug */,
+				5A02894A1C972EBE004B9E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA998BB1CA98CBA00A66418 /* Build configuration list for PBXNativeTarget "ReLaxExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA998B91CA98CBA00A66418 /* Debug */,
+				5AA998BA1CA98CBA00A66418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A02893C1C972EBE004B9E03 /* Project object */;
+}
