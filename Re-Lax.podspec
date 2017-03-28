@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'Re-Lax'
-  spec.version = '1.0'
+  spec.version = '1.0.1'
   spec.summary = 'Recreating Parallax on tvOS'
   spec.homepage = 'https://github.com/asynchrony/Re-Lax'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
