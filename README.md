@@ -1,6 +1,6 @@
 ![icon](icon.png)
 
-# Re:Lax [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![pod](https://img.shields.io/cocoapods/v/ReLax.svg)](https://cocoapods.org/?q=ReLax) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
+# Re:Lax [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![pod](https://img.shields.io/cocoapods/v/Re-Lax.svg)](https://cocoapods.org/?q=Re-Lax) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
 
 [**From the tvOS HIG**](https://developer.apple.com/tvos/human-interface-guidelines/user-interaction/)
@@ -13,7 +13,7 @@ Apple have a few ways to create parallax effects using only tools. Parallax prev
 
 ### Re:Lax in Action
 
-**ReLax alleviates the need to use Apple's tools by providing two ways out. It provides custom parallax effects to any programmatic view as well as the ability to generate a parallax LCR file _at runtime!_ See for yourself:**
+**Re:Lax provides a way to create parallax effects at runtime, eliminating latency for the users of your app and server-side support required to generate parallax images. It provides ways to create custom parallax effects to any programmatic view as well as the ability to generate a parallax LCR file _at runtime!_ See for yourself:**
 
 <p align="center">
   <img src="demo.gif" width="640" height="360" />
@@ -23,9 +23,9 @@ Apple have a few ways to create parallax effects using only tools. Parallax prev
 
 # LCR Files
 
-LCR files are most useful when creating Top Shelf extensions that display dynamic parallax content. If your app retrieves layered images from a server at runtime, you must provide those images as `LCR` files. `LCR` files are generated from `.lsr` or Photoshop files using the `layerutil` command-line tool that’s installed with Xcode, or by using `ParallaxPreviewer.app`. This process does not scale when creating parallax files for dynamic content; fortunately, ReLax fixes this.
+LCR files are most useful when creating Top Shelf extensions that display dynamic parallax content. If your app retrieves layered images from a server at runtime, you must provide those images as `LCR` files. `LCR` files are generated from `.lsr` or Photoshop files using the `layerutil` command-line tool that’s installed with Xcode, or by using `ParallaxPreviewer.app`. This process does not scale when creating parallax files for dynamic content; fortunately, Re:Lax fixes this.
 
-We have reverse engineered the `LCR` image format in order to make this convenient for content providers. This can be done _on the fly_ without the need to use a server to distribute the parallax image files. ReLax makes programmatically generating `LCR` files within your app or extension a breeze.
+We have reverse engineered the `LCR` image format in order to make this convenient for content providers. This can be done _on the fly_ without the need to use a server to distribute the parallax image files. Re:Lax makes programmatically generating `LCR` files within your app or extension a breeze.
 
 ```swift
 let parallaxImage = ParallaxImage(images: images)
@@ -44,7 +44,7 @@ The Example app includes a TopShelf extension which demonstrates how to dynamica
 
 # Programmatic Effect
 
-**ReLax** makes creating programmatic parallax effects easy by providing a constructor that takes an array of `UIImage`s
+**Re:Lax** makes creating programmatic parallax effects easy by providing a constructor that takes an array of `UIImage`s
 
 ```swift
 let parallaxView = ParallaxView(images: images)
@@ -98,6 +98,12 @@ class ParallaxCell: UICollectionViewCell {
 }
 ```
 
+## Tips
+
+* If you are noticing jagged edges on subviews of your `ParallaxContainer`, set `yourView.layer.allowsEdgeAntialiasing = true`.
+* Providing an appropriate `shadowPath` to the `parallaxShadow` method can improve performance.
+* Generated LCR files can only contain up to 5 layers. This is a limitation of the file format.
+
 ## Installation
 
 Our weapon of choice is subprojects + Frameworks, but we're just happy that you want to use our library.
@@ -121,8 +127,8 @@ pod 'Re-Lax'
 
 ## License
 
-ReLax is available using an MIT license. See the LICENSE file for more info.
+Re:Lax is available using an MIT license. See the LICENSE file for more info.
 
 ## We'd Love to Know If You're Using ReLax!
 
-Tweet us at [@marksands](https://twitter.com/marksands) or [@JARInteractive](https://twitter.com/JARInteractive) to let us know if you're using the library :+1:
+Tweet us at [@marksands](https://twitter.com/marksands) or [@JARinteractive](https://twitter.com/JARInteractive) to let us know if you're using the library :+1:
