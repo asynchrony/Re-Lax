@@ -7,7 +7,7 @@
 
 >  If your app uses UIKit and the focus API to implement its user interface, the motion and visual effects of the focus model apply to your interface elements. This makes your app feel native to the platform and helps reduce friction as people move through your interface. When people use the Siri Remote with your app, they’ll find transitioning between focusable elements fluid and intuitive.
 
-Apple have a few ways to create parallax effects using only tools. Parallax previewer is a stand alone application that can have image layers added to it and can be exported as an LCR file, which is Apple's proprietary parallax file format. They also provide a Photoshop plugin that can export a PSD file as an LCR file. Lastly, there is a command line utility, `layerutil`, that can export LSR or PSD files into an LCR file.
+Apple has a few ways to create parallax effects using only tools. Parallax previewer is a stand alone application that can have image layers added to it and can be exported as an LCR file, which is Apple's proprietary parallax file format. They also provide a Photoshop plugin that can export a PSD file as an LCR file. Lastly, there is a command line utility, `layerutil`, that can export LSR or PSD files into an LCR file.
 
 ---
 
