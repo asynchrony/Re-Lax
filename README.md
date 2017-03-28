@@ -98,6 +98,22 @@ class ParallaxCell: UICollectionViewCell {
 }
 ```
 
+## Installation
+
+Our weapon of choice is subprojects + Frameworks, but we're just happy that you want to use our library.
+
+**Carthage**
+
+```
+github "Asynchrony/Re-Lax"
+```
+
+**CocoaPods**
+
+```
+pod 'Re-Lax'
+```
+
 ## Requirements
 
 * tvOS 9.0
