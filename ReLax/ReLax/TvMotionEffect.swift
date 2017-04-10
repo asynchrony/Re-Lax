@@ -4,7 +4,7 @@ public struct TvMotionEffect {
     public static let defaultTranslation: CGFloat = 10
     public static let defaultPerspective: CGFloat = 0.000085
 
-	let motionEffect = UIMotionEffectGroup()
+	public let motionEffect = UIMotionEffectGroup()
 	fileprivate let scale: CGFloat
 	fileprivate let perspective: CGFloat
 	fileprivate let xTranslation: CGFloat
