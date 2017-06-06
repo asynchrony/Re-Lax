@@ -53,10 +53,10 @@ class ReLaxParentButton: UIButton {
 		let parallaxViews = [standardLCRView, deviceGeneratedLCRView, realTimeImagesView]
 		let labels = [systemLabel, generatedLabel, programatticLabel]
 		
-		zip(parallaxViews, thirds).forEach { $0.frame = buttonSize.centered(in: $1).offsetBy(dx: 0, dy: 75) }
+		zip(parallaxViews, thirds).forEach { $0.0.frame = buttonSize.centered(in: $0.1).offsetBy(dx: 0, dy: 75) }
 		zip(labels, thirds).forEach {
-			let size = $0.sizeThatFits($1.size)
-			$0.frame = size.centeredHorizontally(in: $1, top: 192)
+			let size = $0.0.sizeThatFits($0.1.size)
+			$0.0.frame = size.centeredHorizontally(in: $0.1, top: 192)
 		}
 	}
 	

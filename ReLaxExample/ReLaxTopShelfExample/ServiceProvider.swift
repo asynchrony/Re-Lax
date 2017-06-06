@@ -21,7 +21,8 @@ class ServiceProvider: NSObject, TVTopShelfProvider {
     
     var topShelfItems: [TVContentItem] {
         let imagesWithIdentifiers: [(URL, String)] = zip(titles, posterImages)
-            .flatMap { (title: String, parallaxImage: ParallaxImage) -> (URL, String)? in
+            .flatMap { arg -> (URL, String)? in
+                let (title, parallaxImage) = arg
                 guard let cachesDirectory = try? FileManager.default.url(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask, appropriateFor: nil, create: false) else { return nil }
                 let lcrFileURL = cachesDirectory.appendingPathComponent("\(title).lcr")
                 
@@ -38,7 +39,8 @@ class ServiceProvider: NSObject, TVTopShelfProvider {
         guard let contentItem = TVContentItem(contentIdentifier: contentIdentifier) else { fatalError("Error creating content item.") }
         contentItem.title = "Pixar"
         
-        contentItem.topShelfItems = imagesWithIdentifiers.map { url, identifier in
+        contentItem.topShelfItems = imagesWithIdentifiers.map { arg -> TVContentItem in
+            let (url, identifier) = arg
             guard let contentIdentifier = TVContentIdentifier(identifier: identifier, container: nil) else { fatalError("Error creating content identifier.") }
             guard let contentItem = TVContentItem(contentIdentifier: contentIdentifier) else { fatalError("Error creating content item.") }
             
