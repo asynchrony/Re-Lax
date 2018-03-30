@@ -10,8 +10,8 @@ class ServiceProvider: NSObject, TVTopShelfProvider {
         .map { movie in
             ["5", "4", "3", "2", "1"].map { return "\(movie)-\($0)" }
         }
-        .flatMap {
-            $0.flatMap { UIImage(named: $0) }
+        .compactMap {
+            $0.compactMap { UIImage(named: $0) }
         }
         .map { ParallaxImage(images: $0) }
     
@@ -21,7 +21,7 @@ class ServiceProvider: NSObject, TVTopShelfProvider {
     
     var topShelfItems: [TVContentItem] {
         let imagesWithIdentifiers: [(URL, String)] = zip(titles, posterImages)
-            .flatMap { (title: String, parallaxImage: ParallaxImage) -> (URL, String)? in
+            .compactMap { (title: String, parallaxImage: ParallaxImage) -> (URL, String)? in
                 guard let cachesDirectory = try? FileManager.default.url(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask, appropriateFor: nil, create: false) else { return nil }
                 let lcrFileURL = cachesDirectory.appendingPathComponent("\(title).lcr")
                 

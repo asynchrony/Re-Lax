@@ -3,8 +3,8 @@ import Foundation
 func uint32Data(_ int: UInt) -> Data {
     let intData = UnsafeMutablePointer<UInt>.allocate(capacity: 4)
     defer {
-        intData.deinitialize()
-        intData.deallocate(capacity: 4)
+        intData.deinitialize(count: 4)
+        intData.deallocate()
     }
     intData.initialize(to: int)
     return Data(bytes: intData, count: 4)
@@ -13,8 +13,8 @@ func uint32Data(_ int: UInt) -> Data {
 func int32Data(_ int: Int) -> Data {
     let intData = UnsafeMutablePointer<Int>.allocate(capacity: 4)
     defer {
-        intData.deinitialize()
-        intData.deallocate(capacity: 4)
+        intData.deinitialize(count: 4)
+        intData.deallocate()
     }
     intData.initialize(to: int)
     return Data(bytes: intData, count: 4)
@@ -23,8 +23,8 @@ func int32Data(_ int: Int) -> Data {
 func byteSwappedInt32Data(_ int: Int) -> Data {
     let intData = UnsafeMutablePointer<UInt32>.allocate(capacity: 4)
     defer {
-        intData.deinitialize()
-        intData.deallocate(capacity: 4)
+        intData.deinitialize(count: 4)
+        intData.deallocate()
     }
     intData.initialize(to: UInt32(int).byteSwapped)
     return Data(bytes: intData, count: 4)
@@ -33,8 +33,8 @@ func byteSwappedInt32Data(_ int: Int) -> Data {
 func byteSwappedInt16Data(_ int: Int) -> Data {
     let intData = UnsafeMutablePointer<UInt16>.allocate(capacity: 2)
     defer {
-        intData.deinitialize()
-        intData.deallocate(capacity: 2)
+        intData.deinitialize(count: 2)
+        intData.deallocate()
     }
     intData.initialize(to: UInt16(int).byteSwapped)
     return Data(bytes: intData, count: 2)
@@ -43,8 +43,8 @@ func byteSwappedInt16Data(_ int: Int) -> Data {
 func int16Data(_ int: Int) -> Data {
     let intData = UnsafeMutablePointer<UInt16>.allocate(capacity: 2)
     defer {
-        intData.deinitialize()
-        intData.deallocate(capacity: 2)
+        intData.deinitialize(count: 2)
+        intData.deallocate()
     }
     intData.initialize(to: UInt16(int))
     return Data(bytes: intData, count: 2)
@@ -68,8 +68,8 @@ func uuidData() -> Data {
     let uuid = NSUUID()
     let uuidBytes = UnsafeMutablePointer<UInt8>.allocate(capacity: 16)
     defer {
-        uuidBytes.deinitialize()
-        uuidBytes.deallocate(capacity: 16)
+        uuidBytes.deinitialize(count: 16)
+        uuidBytes.deallocate()
     }
     uuid.getBytes(uuidBytes)
     let data = Data(bytes: uuidBytes, count: 16)
