@@ -34,14 +34,13 @@ class ServiceProvider: NSObject, TVTopShelfProvider {
                 return (lcrFileURL, title)
         }
         
-        guard let contentIdentifier = TVContentIdentifier(identifier: UUID().uuidString, container: nil) else { fatalError("Error creating content identifier.") }
-        guard let contentItem = TVContentItem(contentIdentifier: contentIdentifier) else { fatalError("Error creating content item.") }
+        let contentIdentifier = TVContentIdentifier(identifier: UUID().uuidString, container: nil)
+        let contentItem = TVContentItem(contentIdentifier: contentIdentifier)
         contentItem.title = "Pixar"
         
         contentItem.topShelfItems = imagesWithIdentifiers.map { url, identifier in
-            guard let contentIdentifier = TVContentIdentifier(identifier: identifier, container: nil) else { fatalError("Error creating content identifier.") }
-            guard let contentItem = TVContentItem(contentIdentifier: contentIdentifier) else { fatalError("Error creating content item.") }
-            
+            let contentIdentifier = TVContentIdentifier(identifier: identifier, container: nil)
+            let contentItem = TVContentItem(contentIdentifier: contentIdentifier)
             contentItem.title = identifier
             contentItem.displayURL = nil
             contentItem.imageURL = url

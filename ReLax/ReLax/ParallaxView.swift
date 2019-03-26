@@ -210,7 +210,7 @@ open class AnimatedShadowView: UIView {
 		let keys = ["shadowRadius", "shadowOpacity", "shadowOffset"]
 		if keys.contains(event) {
 			let animation = CABasicAnimation(keyPath: event)
-			animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+			animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
 			return animation
 		}
 		

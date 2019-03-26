@@ -26,7 +26,7 @@ open class DefaultContainer: UIView, ParallaxContainer {
 }
 
 open class ParallaxButton<Container: UIView>: UIButton where Container: ParallaxContainer {
-	open let parallaxView: ParallaxView<Container>
+	public let parallaxView: ParallaxView<Container>
 	
 	open override var isHighlighted: Bool {
 		didSet {
